@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>IGPixel</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="menu" class="menu">
+    <img src="menu.png" width="100%">
+</div>
+<div id="container" class="container">
+    <div class="dot-row">
+        <script>
+            var container = document.querySelector(".dot-row");
+            for (var i = 0; i < 12000; i++) {
+                var div = document.createElement("div");
+                div.className = "dot";
+                container.appendChild(div);
+            }
+        </script>
+    </div>
+</div>
+</body>
+</html>
